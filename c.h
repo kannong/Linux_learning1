@@ -1,1 +1,2 @@
-#define C 2
+
+#define C   2

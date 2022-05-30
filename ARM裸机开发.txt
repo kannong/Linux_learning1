@@ -105,4 +105,10 @@ gcc -M -MF c.d c.c  // 把依赖写入文件c.d
 gcc -c -o c.o c.c -MD -MF c.d  // 编译c.o, 把依赖写入文件c.d
 
 b. 添加CFLAGS
+CFLAGS -Werror
+将所有的警告当做错误
+
+CFLAGS = -Werror -Iinclude
+指定头文件目录为include(当前目录下的)
+
 c. 分析裸板Makefile

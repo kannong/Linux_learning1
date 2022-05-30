@@ -4,5 +4,5 @@
 
 void func_c()
 {
-	printf("This is C = %d\n",C );
+	printf("This is C = %d\n",C);
 }
