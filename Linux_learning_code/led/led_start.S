@@ -11,3 +11,4 @@ _start:
 /*死循环*/
 halt:
     b halt
+    
